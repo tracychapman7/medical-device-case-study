@@ -12,8 +12,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md z-50 border-b border-border/40">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary flex items-center justify-center text-white font-bold font-display">M</div>
-            <span className="font-display font-bold text-lg tracking-tight text-primary">MEDSTRAT</span>
+            {/* Branding removed */}
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
             <a href="#challenge" className="hover:text-primary transition-colors">Challenge</a>
@@ -364,12 +363,8 @@ export default function Home() {
       <footer className="bg-background py-12 border-t border-border">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-primary flex items-center justify-center text-white font-bold text-xs font-display">M</div>
-              <span className="font-display font-bold text-primary">MEDSTRAT</span>
-            </div>
             <div className="text-sm text-muted-foreground">
-              © 2025 MedStrat Consulting. All rights reserved.
+              © 2025 All rights reserved.
             </div>
           </div>
         </div>
