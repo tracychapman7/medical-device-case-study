@@ -9,6 +9,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
+  base: "/medical-device-case-study/",
   plugins,
   resolve: {
     alias: {
